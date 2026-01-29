@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Water Testing – Section</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #0b2a44;
+}
+
+/* ================= SECTION WRAPPER ================= */
+.water-section {
+  max-width: 1440px;
+  margin: 120px auto;
+  padding: 0 80px;
+}
+
+/* ================= TITLE ================= */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* ================= ROW ================= */
+.row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 100px;
+}
+
+/* ================= IMAGE CARD ================= */
+.image-card {
+  width: 552px;
+  height: 387px;
+  border-radius: 13px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* LEFT IMAGE */
+.image-left {
+  background: url('assites/man-lab-coat.png') no-repeat center;
+  background-size: cover;
+}
+
+/* RIGHT IMAGE */
+.image-right {
+  width: 464px;
+  background: url('assites/water-testing-img.png') no-repeat center;
+  background-size: cover;
+}
+
+/* ================= CONTENT BOX ================= */
+.content-box {
+  flex: 1;
+}
+
+.content-box h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.content-box p {
+  font-size: 14px;
+  color: #4a6b82;
+  margin-bottom: 18px;
+}
+
+/* ================= LIST ================= */
+.list {
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.list li::before {
+  content: "✔";
+  color: #0b2a44;
+  font-weight: bold;
+}
+
+/* ================= BUTTON ================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 12px 22px;
+  background: #0b2a44;
+  color: #ffffff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #0033a0;
+  transform: translateY(-2px);
+}
+
+/* ================= BOTTOM STRIP SECTION ================= */
+.bottom-strip {
+  background-color: #0b2a44;
+  color: white;
+  padding: 60px 80px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.bottom-strip h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.bottom-strip p {
+  font-size: 14px;
+  color: #d0d8e0;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.bottom-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: #ffffff;
+  color: #0b2a44;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bottom-btn:hover {
+  background: #e0e8f0;
+  transform: translateY(-2px);
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .water-section {
+    padding: 0 20px;
+    margin: 60px auto;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .image-card {
+    width: 100%;
+    height: 250px;
+  }
+
+  .image-right {
+    width: 100%;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .bottom-strip {
+    padding: 40px 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="water-section">
+
+  <!-- ===== FIRST BLOCK ===== -->
+  <h2 class="section-title">
+    Reliable Water Testing Solutions for Every Industry in India
+  </h2>
+
+  <div class="row">
+    <div class="image-card image-left"></div>
+
+    <div class="content-box">
+      <h3>Common Water Testing Challenges</h3>
+      <ul class="list">
+        <li>Results vary between samples or labs</li>
+        <li>Operators struggle with complicated instruments</li>
+        <li>Old OTO methods fail BIS chlorine compliance</li>
+        <li>Reagents from multiple suppliers reduce accuracy</li>
+        <li>Delayed calibration affects audit readiness</li>
+        <li>Testing large volumes becomes slow and inefficient</li>
+      </ul>
+
+      <a href="#" class="btn">▶ Get the Right Water Testing Solution</a>
+    </div>
+  </div>
+
+  <!-- ===== SECOND BLOCK ===== -->
+  <h2 class="section-title">
+    Water Testing, The Smarter Way
+  </h2>
+
+  <div class="row">
+    <div class="content-box">
+      <h3>Our Solution Benefits</h3>
+      <ul class="list">
+        <li>Earlier: multiple vendors, inconsistent workflows</li>
+        <li>Now: one integrated ecosystem (instruments + reagents)</li>
+        <li>Earlier: audits were stressful</li>
+        <li>Now: easy, repeatable & defensible results</li>
+        <li>Earlier: long training time</li>
+        <li>Now: simplified workflows operators master quickly</li>
+      </ul>
+
+      <a href="#" class="btn">📞 Request Technical Guidance</a>
+    </div>
+
+    <div class="image-card image-right"></div>
+  </div>
+
+</section>
+
+<!-- ===== BOTTOM STRIP SECTION ===== -->
+<section class="bottom-strip">
+  <h2>Ready to Get Started?</h2>
+  <p>Download our comprehensive water testing catalogue and discover all our solutions and services.</p>
+  <a href="#" class="bottom-btn">⬇️ Download Water Testing Catalogue</a>
+</section>
+
+</body>
+</html>
